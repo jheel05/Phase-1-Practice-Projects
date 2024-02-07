@@ -10,28 +10,30 @@ body {
 
 }
 
+
 .topnav {
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     width: 100%;
     align-items: center;
     background-color: #ffffff;
-    height: 80px;
-    top: 0;
-    z-index: 1;
+    height: 10%;
 }
 
 .wrap {
-    padding-top: 10px;
+    padding-top: 1%;
 }
 
 .logo {
-    padding-top: 5px;
+    padding-top: 1.5%;
+    justify-content: center;
 }
 
 .nav {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 1%;
 }
 
 .nav-title {
@@ -124,19 +126,17 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    padding-top: 100px;
     margin: 0;
     width: 100%;
     height: 100%;
     margin-left: 1%;
     margin-right: 1%;
-    z-index: -1;
+    
 }
 
 .category-list img {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     margin: 5px;
     padding: 8px;
 }
@@ -198,8 +198,8 @@ body {
 
 .scene .card {
     position: relative;
-    width: 240px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     color: white;
     cursor: pointer;
     transition: 1s ease-in-out;
